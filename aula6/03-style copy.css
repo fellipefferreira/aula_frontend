@@ -1,0 +1,23 @@
+.container{
+    width:80%;
+    margin: 0 auto; 
+    border:10px solid #9f0627;
+    display:grid; /*parecido a uma tabela, para manipular elementos*/
+    grid-template-rows: repeat(4,100px);
+    grid-template-columns: repeat(4,100px);
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    padding:10px;
+    background-color:#fe6f7e;
+    color:white;
+    border:10px solid #ff315e;
+}
+
+.item-1{
+    justify-self: center;
+    /* align-self:stretch; */
+}
+

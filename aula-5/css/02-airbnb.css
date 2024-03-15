@@ -67,8 +67,10 @@ main {
 .photos .img1{
     grid-row:1 / 3;
     grid-column:1 / 3;
+
 }
 
-.photos .img1 img{
-    /* border-top-left-radius: ; */
+.photos div:hover{
+    opacity: 0.9;
+    cursor:pointer;
 }
